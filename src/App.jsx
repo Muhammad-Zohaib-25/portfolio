@@ -166,7 +166,7 @@ function App() {
                   adapts to all screen sizes, making it mobile-friendly and
                   user-centric.
                 </p>
-                <a href="https://the-shoe-company.netlify.app/" target="_blank">
+                <a href="https://the-shoe-company-by-constcoderr.netlify.app/" target="_blank">
                   <div className="flex items-center gap-2 group">
                     <div className="h-10 w-10 md:h-12 md:w-12 p-1 rounded-[50%] border border-[#ffffff25] group-hover:border-[#32F900] grid place-items-center mt-2 md:mt-5 cursor-pointer transition-all duration-700">
                       <img
