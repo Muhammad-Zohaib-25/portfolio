@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.max-width {
+  @apply max-w-[1400px] mx-auto px-4 md:px-8 lg:px-14;
+}
+
+nav#nav:hover a:not(:hover) {
+  @apply text-[#32F900] scale-95;
+}
+
+nav a,
+#preview {
+  @apply transition-all duration-700 inline-block relative after:content-[''] after:h-[2px] after:w-full after:absolute after:-bottom-1 after:left-0 after:bg-[#32F900] after:scale-0 after:transition-all after:duration-700 hover:after:scale-100 group-hover:after:scale-100;
+}
+
+html,
+body {
+  @apply scroll-smooth overflow-x-hidden;
+}
