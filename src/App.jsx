@@ -2,6 +2,7 @@ import Button from "./components/Button";
 import Header from "./components/Header";
 import ParaBox from "./components/ParaBox";
 import zohaibImg from "./assets/zohaib.webp";
+import codewise from "./assets/codewise.png";
 import reactIcon from "./assets/react-icon.svg";
 import tailwindIcon from "./assets/tailwind-icon.svg";
 import shoeCompany from "./assets/shoe-company.png";
@@ -166,7 +167,10 @@ function App() {
                   adapts to all screen sizes, making it mobile-friendly and
                   user-centric.
                 </p>
-                <a href="https://the-shoe-company-by-constcoderr.netlify.app/" target="_blank">
+                <a
+                  href="https://the-shoe-company-by-constcoderr.netlify.app/"
+                  target="_blank"
+                >
                   <div className="flex items-center gap-2 group">
                     <div className="h-10 w-10 md:h-12 md:w-12 p-1 rounded-[50%] border border-[#ffffff25] group-hover:border-[#32F900] grid place-items-center mt-2 md:mt-5 cursor-pointer transition-all duration-700">
                       <img
@@ -286,6 +290,82 @@ function App() {
           </div>
         </div>
         {/* carousal ends here */}
+        <section id="experience">
+          <div className="max-width pt-14 md:pt-24">
+            <ParaBox para={"Experience"} />
+            <h1 className="text-[#F6F6F6] text-3xl md:text-4xl mdlg:text-5xl font-montserrat font-bold mb-2 mt-5 md:mt-10">
+              My Working Experience as
+            </h1>
+            <h1 className="text-[#F6F6F6] text-3xl md:text-4xl mdlg:text-5xl font-montserrat font-bold mb-14">
+              a <span className="text-[#32F900]">Front-End Developer</span>
+            </h1>
+            <div className="flex flex-col md:flex-row gap-5 lg:gap-10 transition-all duration-700 hover:shadow-[0px_0px_10px_#32F900] rounded-md p-3 lg:p-6 border border-[#ffffff25] bg-[#0000008f] backdrop-blur-md">
+              <div className="bg-[#F6F6F6] h-16 w-16 lg:h-20 lg:w-20 rounded-md pt-3 flex-shrink-0">
+                <img src={codewise} alt="codewise logo" />
+              </div>
+              <div>
+                <h3 className="font-semibold lg:font-bold mb-2 lg:mb-4 text-xl lg:text-2xl text-[#32F900]">Jan 2023 - Jan 2024</h3>
+                <h2 className="font-semibold lg:font-bold mb-2 lg:mb-4 text-3xl lg:text-4xl">Frontend Developer Internship</h2>
+                <h2 className="font-semibold lg:font-bold mb-2 lg:mb-4 text-2xl lg:text-3xl">Code Wise</h2>
+                <p className="text-[#f6f6f6ab] text-base lg:text-xl">Worked as a Frontend Developer for a year, both remotely and on-site, collaborating with designers to turn designs into pixel-perfect, responsive websites. Focused on performance optimization, smooth interactions, and modern UI development to enhance user experience. Gained hands-on experience in delivering high-quality frontend solutions in a professional environment.Also worked with WordPress to build and customize websites.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* experience section ends here */}
+        <div className="h-16 md:h-20 bg-[#32F900] flex items-center gap-14 overflow-hidden whitespace-nowrap mt-14">
+          <div className="flex items-center gap-14 animate-scroll">
+            <h3 className="text-[#121212] text-3xl md:text-4xl font-bold font-dangrek">
+              HTML
+            </h3>
+            <Star />
+            <h3 className="text-[#121212] text-3xl md:text-4xl font-bold font-dangrek">
+              CSS
+            </h3>
+            <Star />
+            <h3 className="text-[#121212] text-3xl md:text-4xl font-bold font-dangrek">
+              Tailwind-CSS
+            </h3>
+            <Star />
+            <h3 className="text-[#121212] text-3xl md:text-4xl font-bold font-dangrek">
+              JavaScript
+            </h3>
+            <Star />
+            <h3 className="text-[#121212] text-3xl md:text-4xl font-bold font-dangrek">
+              React.JS
+            </h3>
+            <Star />
+            <h3 className="text-[#121212] text-3xl md:text-4xl font-bold font-dangrek">
+              GSAP
+            </h3>
+            <Star />
+            <h3 className="text-[#121212] text-3xl md:text-4xl font-bold font-dangrek">
+              HTML
+            </h3>
+            <Star />
+            <h3 className="text-[#121212] text-3xl md:text-4xl font-bold font-dangrek">
+              CSS
+            </h3>
+            <Star />
+            <h3 className="text-[#121212] text-3xl md:text-4xl font-bold font-dangrek">
+              Tailwind-CSS
+            </h3>
+            <Star />
+            <h3 className="text-[#121212] text-3xl md:text-4xl font-bold font-dangrek">
+              JavaScript
+            </h3>
+            <Star />
+            <h3 className="text-[#121212] text-3xl md:text-4xl font-bold font-dangrek">
+              React.JS
+            </h3>
+            <Star />
+            <h3 className="text-[#121212] text-3xl md:text-4xl font-bold font-dangrek">
+              GSAP
+            </h3>
+            <Star />
+          </div>
+        </div>
+        {/* carousal ends here */}
         <section className="mb-14 pt-14 md:pt-20" id="contact">
           <div className="max-width grid place-items-center">
             <ParaBox para={"Contact Me"} />
@@ -295,60 +375,6 @@ function App() {
                 Your <br /> Next Projects
               </span>
             </h1>
-            {/* <form
-              action=""
-              className="border border-[#ffffff25] rounded-lg p-4 hover:shadow-[0px_0px_6px_#32F900] transition-shadow duration-700 text-[#979EA9]"
-            >
-              <div className="flex flex-wrap gap-3">
-                <div className="flex-grow">
-                  <label className="leading-10 text-lg" htmlFor="name">
-                    Name *
-                  </label>
-                  <br />
-                  <input
-                  name="name"
-                    className="text-[#F6F6F6] w-full md:w-64 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#32F900] rounded-lg border border-[#ffffff25] bg-[#0000008f]"
-                    id="name"
-                    type="text"
-                    required
-                  />
-                </div>
-                <div className="flex-grow">
-                  <label className="leading-10 text-lg" htmlFor="email">
-                    Email *
-                  </label>
-                  <br />
-                  <input
-                  name="email"
-                    className="text-[#F6F6F6] w-full md:w-64 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#32F900] rounded-lg border border-[#ffffff25] bg-[#0000008f]"
-                    type="email"
-                    required
-                  />
-                </div>
-              </div>
-              <div className="my-2">
-                <label className="leading-10 text-lg" htmlFor="text">
-                  Message *
-                </label>
-                <br />
-                <textarea
-                name="message"
-                  className="text-[#F6F6F6] resize-none overflow-hidden rounded-lg border border-[#ffffff25] bg-[#0000008f] w-full p-3 focus:outline-none focus:ring-2 focus:ring-[#32F900]"
-                  rows="5"
-                  placeholder="Enter your message..."
-                  required
-                ></textarea>
-              </div>
-              <Button
-                content={"Send Message"}
-                bgColor={"#32F900"}
-                color={"#121212"}
-                borderColor={"#32F900"}
-                hoverBgColor={"#F6F6F6"}
-                responsive={false}
-                width={"100%"}
-              />
-            </form> */}
             <ContactForm />
           </div>
         </section>

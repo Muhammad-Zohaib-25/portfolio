@@ -19,6 +19,7 @@ const Header = () => {
         >
           <a href="#hero">Home</a>
           <a href="#portfolio">Portfolio</a>
+          <a href="#experience">Experience</a>
           <a href="#contact">Contact</a>
         </nav>
         <a href="#contact">
@@ -55,6 +56,14 @@ const Header = () => {
             href="#portfolio"
           >
             Portfolio
+          </a>
+          <a
+            onClick={() => {
+              setIsClicked(false);
+            }}
+            href="#experience"
+          >
+            Experience
           </a>
           <a
             onClick={() => {
