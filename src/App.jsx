@@ -299,7 +299,7 @@ function App() {
             <h1 className="text-[#F6F6F6] text-3xl md:text-4xl mdlg:text-5xl font-montserrat font-bold mb-14">
               a <span className="text-[#32F900]">Front-End Developer</span>
             </h1>
-            <div className="flex flex-col md:flex-row gap-5 lg:gap-10 transition-all duration-700 hover:shadow-[0px_0px_10px_#32F900] rounded-md p-3 lg:p-6 border border-[#ffffff25] bg-[#0000008f] backdrop-blur-md">
+            <div className="flex flex-col md:flex-row gap-5 lg:gap-20 transition-all duration-700 hover:shadow-[0px_0px_10px_#32F900] rounded-md p-3 lg:p-6 border border-[#ffffff25] bg-[#0000008f] backdrop-blur-md">
               <div className="bg-[#F6F6F6] h-16 w-16 lg:h-20 lg:w-20 rounded-md pt-3 flex-shrink-0">
                 <img src={codewise} alt="codewise logo" />
               </div>
