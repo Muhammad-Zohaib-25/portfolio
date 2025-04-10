@@ -291,7 +291,7 @@ function App() {
         </div>
         {/* carousal ends here */}
         <section id="experience">
-          <div className="max-width pt-14 md:pt-24">
+          <div className="max-width pt-14 md:pt-20">
             <ParaBox para={"Experience"} />
             <h1 className="text-[#F6F6F6] text-3xl md:text-4xl mdlg:text-5xl font-montserrat font-bold mb-2 mt-5 md:mt-10">
               My Working Experience as
@@ -304,10 +304,25 @@ function App() {
                 <img src={codewise} alt="codewise logo" />
               </div>
               <div>
-                <h3 className="font-semibold lg:font-bold mb-2 lg:mb-4 text-xl lg:text-2xl text-[#32F900]">Jan 2023 - Jan 2024</h3>
-                <h2 className="font-semibold lg:font-bold mb-2 lg:mb-4 text-3xl lg:text-4xl">Frontend Developer Internship</h2>
-                <h2 className="font-semibold lg:font-bold mb-2 lg:mb-4 text-2xl lg:text-3xl">Code Wise</h2>
-                <p className="text-[#f6f6f6ab] text-base lg:text-xl">Worked as a Frontend Developer for a year, both remotely and on-site, collaborating with designers to turn designs into pixel-perfect, responsive websites. Focused on performance optimization, smooth interactions, and modern UI development to enhance user experience. Gained hands-on experience in delivering high-quality frontend solutions in a professional environment.Also worked with WordPress to build and customize websites.</p>
+                <h3 className="font-semibold lg:font-bold mb-2 lg:mb-4 text-xl lg:text-2xl text-[#32F900]">
+                  Jan 2023 - Jan 2024
+                </h3>
+                <h2 className="font-semibold lg:font-bold mb-2 lg:mb-4 text-3xl lg:text-4xl">
+                  Frontend Developer Internship
+                </h2>
+                <h2 className="font-semibold lg:font-bold mb-2 lg:mb-4 text-2xl lg:text-3xl">
+                  Code Wise
+                </h2>
+                <p className="text-[#f6f6f6ab] text-base lg:text-xl">
+                  Worked as a Frontend Developer for a year, both remotely and
+                  on-site, collaborating with designers to turn designs into
+                  pixel-perfect, responsive websites. Focused on performance
+                  optimization, smooth interactions, and modern UI development
+                  to enhance user experience. Gained hands-on experience in
+                  delivering high-quality frontend solutions in a professional
+                  environment.Also worked with WordPress to build and customize
+                  websites.
+                </p>
               </div>
             </div>
           </div>
