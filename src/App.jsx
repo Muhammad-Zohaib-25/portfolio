@@ -111,6 +111,10 @@ function App() {
             </h3>
             <Star />
             <h3 className="text-[#121212] text-3xl md:text-4xl font-bold font-dangrek">
+              Git & Github
+            </h3>
+            <Star />
+            <h3 className="text-[#121212] text-3xl md:text-4xl font-bold font-dangrek">
               HTML
             </h3>
             <Star />
@@ -132,6 +136,10 @@ function App() {
             <Star />
             <h3 className="text-[#121212] text-3xl md:text-4xl font-bold font-dangrek">
               GSAP
+            </h3>
+            <Star />
+            <h3 className="text-[#121212] text-3xl md:text-4xl font-bold font-dangrek">
+              Git & Github
             </h3>
             <Star />
           </div>
@@ -264,6 +272,10 @@ function App() {
             </h3>
             <Star />
             <h3 className="text-[#121212] text-3xl md:text-4xl font-bold font-dangrek">
+              Git & Github
+            </h3>
+            <Star />
+            <h3 className="text-[#121212] text-3xl md:text-4xl font-bold font-dangrek">
               HTML
             </h3>
             <Star />
@@ -285,6 +297,10 @@ function App() {
             <Star />
             <h3 className="text-[#121212] text-3xl md:text-4xl font-bold font-dangrek">
               GSAP
+            </h3>
+            <Star />
+            <h3 className="text-[#121212] text-3xl md:text-4xl font-bold font-dangrek">
+              Git & Github
             </h3>
             <Star />
           </div>
@@ -355,6 +371,10 @@ function App() {
             </h3>
             <Star />
             <h3 className="text-[#121212] text-3xl md:text-4xl font-bold font-dangrek">
+              Git & Github
+            </h3>
+            <Star />
+            <h3 className="text-[#121212] text-3xl md:text-4xl font-bold font-dangrek">
               HTML
             </h3>
             <Star />
@@ -376,6 +396,10 @@ function App() {
             <Star />
             <h3 className="text-[#121212] text-3xl md:text-4xl font-bold font-dangrek">
               GSAP
+            </h3>
+            <Star />
+            <h3 className="text-[#121212] text-3xl md:text-4xl font-bold font-dangrek">
+              Git & Github
             </h3>
             <Star />
           </div>
